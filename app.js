@@ -9,10 +9,7 @@ addButton.addEventListener('click', () => {
     const addTwo = document.getElementById('addTwo');
     const numberOne = Number(addOne.value);
     const numberTwo = Number(addTwo.value);
-    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const answer = numberOne + numberTwo;
-
-    console.log(answer);
     document.getElementById('sum').textContent = answer;
 
 });
@@ -23,10 +20,7 @@ subtractButton.addEventListener('click', () => {
     const subtractTwo = document.getElementById('subtractTwo');
     const numberOne = Number(subtractOne.value);
     const numberTwo = Number(subtractTwo.value);
-    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const answer = numberOne - numberTwo;
-
-    console.log(answer);
     document.getElementById('result').textContent = answer;
 
 });
@@ -37,10 +31,7 @@ divideButton.addEventListener('click', () => {
     const divideTwo = document.getElementById('divideTwo');
     const numberOne = Number(divideOne.value);
     const numberTwo = Number(divideTwo.value);
-    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const answer = numberOne / numberTwo;
-
-    console.log(answer);
     document.getElementById('quotient').textContent = answer;
 
 });
@@ -51,10 +42,7 @@ multiplyButton.addEventListener('click', () => {
     const multiplyTwo = document.getElementById('multiplyTwo');
     const numberOne = Number(multiplyOne.value);
     const numberTwo = Number(multiplyTwo.value);
-    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const answer = numberOne * numberTwo;
-
-    console.log(answer);
     document.getElementById('product').textContent = answer;
 
 });
@@ -64,7 +52,6 @@ equalsButton.addEventListener('click', () => {
     const inputTwo = document.getElementById('inputTwo');
     const numberOne = Number(inputOne.value);
     const numberTwo = Number(inputTwo.value);
-    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const operand = document.getElementsByName('operand');
     let answer;
     if (operand[0].checked){
@@ -77,7 +64,6 @@ equalsButton.addEventListener('click', () => {
         answer = numberOne / numberTwo;
     }
 
-    console.log(answer);
     document.getElementById('answer').textContent = answer;
 
 });
