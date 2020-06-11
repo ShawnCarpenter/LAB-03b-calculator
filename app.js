@@ -69,14 +69,11 @@ equalsButton.addEventListener('click', () => {
     let answer;
     if (operand[0].checked){
         answer = numberOne + numberTwo;
-    }
-    if (operand[1].checked) {
+    } else if (operand[1].checked) {
         answer = numberOne - numberTwo;
-    }
-    if (operand[2].checked) {
+    } else if (operand[2].checked) {
         answer = numberOne * numberTwo;
-    }
-    if (operand[3].checked) {
+    } else if (operand[3].checked) {
         answer = numberOne / numberTwo;
     }
 
