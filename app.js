@@ -6,11 +6,10 @@ const equalsButton = document.getElementById('equalsButton');
 
 addButton.addEventListener('click', () => {
     const addOne = document.getElementById('addOne');
-    console.log(`AddOne is${addOne}`);
     const addTwo = document.getElementById('addTwo');
-    console.log(`AddTwo is${addTwo}`);
     const numberOne = Number(addOne.value);
     const numberTwo = Number(addTwo.value);
+    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const answer = numberOne + numberTwo;
 
     console.log(answer);
@@ -21,11 +20,10 @@ addButton.addEventListener('click', () => {
 
 subtractButton.addEventListener('click', () => {
     const subtractOne = document.getElementById('subtractOne');
-    console.log(`subtractOne is${subtractOne}`);
     const subtractTwo = document.getElementById('subtractTwo');
-    console.log(`subtractTwo is${subtractTwo}`);
     const numberOne = Number(subtractOne.value);
     const numberTwo = Number(subtractTwo.value);
+    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const answer = numberOne - numberTwo;
 
     console.log(answer);
@@ -36,11 +34,10 @@ subtractButton.addEventListener('click', () => {
 
 divideButton.addEventListener('click', () => {
     const divideOne = document.getElementById('divideOne');
-    console.log(`divideOne is${divideOne}`);
     const divideTwo = document.getElementById('divideTwo');
-    console.log(`divideTwo is${divideTwo}`);
     const numberOne = Number(divideOne.value);
     const numberTwo = Number(divideTwo.value);
+    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const answer = numberOne / numberTwo;
 
     console.log(answer);
@@ -51,11 +48,10 @@ divideButton.addEventListener('click', () => {
 
 multiplyButton.addEventListener('click', () => {
     const multiplyOne = document.getElementById('multiplyOne');
-    console.log(`multiplyOne is${multiplyOne}`);
     const multiplyTwo = document.getElementById('multiplyTwo');
-    console.log(`multiplyTwo is${multiplyTwo}`);
     const numberOne = Number(multiplyOne.value);
     const numberTwo = Number(multiplyTwo.value);
+    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const answer = numberOne * numberTwo;
 
     console.log(answer);
@@ -65,11 +61,10 @@ multiplyButton.addEventListener('click', () => {
 
 equalsButton.addEventListener('click', () => {
     const inputOne = document.getElementById('inputOne');
-    console.log(`inputOne is${inputOne}`);
     const inputTwo = document.getElementById('inputTwo');
-    console.log(`inputTwo is${inputTwo}`);
     const numberOne = Number(inputOne.value);
     const numberTwo = Number(inputTwo.value);
+    console.log(`numberOne is ${numberOne}, numberTwo is ${numberTwo}`);
     const operand = document.getElementsByName('operand');
     let answer;
     if (operand[0].checked){
